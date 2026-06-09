@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
             Lab13_MovilesTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Box(modifier = Modifier.padding(innerPadding)) {
-                        EjemploAnimacionTamanoPosicion()
+                        EjemploAnimatedContent()
                     }
                 }
             }
